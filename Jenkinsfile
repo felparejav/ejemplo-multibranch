@@ -7,27 +7,27 @@ pipeline {
 		stages {                 
 			stage('Prepare') {                         
 				steps {                                 
-					echo 'master'
+					echo 'dev'
 				}                 
 			}                 
 			stage('Build') {                         
 				steps {
-					echo 'master'											               	                      
+					echo 'dev'											               	                      
 				}                 
 			}                 
 			stage('Test') {                         
 				steps {                                 
-					echo 'master'                        
+					echo 'dev'                        
 				}                 
 			}
 			stage('push') {
 				steps {
-					echo 'master'
+					echo 'dev'
 				}
 			}                 
 			stage('Deploy') {                         
 				steps {                                 
-					echo 'master'
+					echo 'dev'
 					                                     					
 				}                 
 			}         
